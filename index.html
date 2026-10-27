@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#153f35">
+<meta name="description" content="Guía comunitaria para cuidar el Parque de las Patinetas en Bosa: residuos, protección animal y canales oficiales de ayuda.">
+<title>Cuidemos nuestro parque | Bosa El Remanso</title>
+<style>
+:root{--pine:#153f35;--green:#23745c;--lime:#d7ef8b;--cream:#f7f5ed;--paper:#fffef9;--ink:#1e302a;--muted:#5d6d65;--orange:#e67e4b;--line:#dce4db;--shadow:0 18px 50px rgba(21,63,53,.10)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit}button,a{touch-action:manipulation}.wrap{width:min(1120px,calc(100% - 36px));margin:auto}.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:12px;background:white;padding:10px;z-index:99}
+header{background:var(--paper);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:76px}.brand{display:flex;gap:10px;align-items:center;text-decoration:none;font-weight:850;color:var(--pine);letter-spacing:-.03em}.brandmark{width:42px;height:42px;border-radius:14px;background:var(--pine);color:var(--lime);display:grid;place-items:center;font-size:23px}.navlinks{display:flex;gap:20px;align-items:center}.navlinks a{text-decoration:none;font-size:.92rem;font-weight:700;color:#42574d}.navlinks a:hover{color:var(--green)}.navcta{background:var(--pine);color:white!important;padding:10px 14px;border-radius:999px}
+.hero{padding:68px 0 52px;background:radial-gradient(circle at 90% 8%,rgba(215,239,139,.38),transparent 25%),linear-gradient(135deg,#edf3e6,#f7f5ed 60%)}.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--green);font-size:.78rem;letter-spacing:.13em;text-transform:uppercase;font-weight:850}.eyebrow:before{content:"";width:24px;height:2px;background:var(--orange)}h1,h2,h3{line-height:1.12;letter-spacing:-.04em;color:var(--pine)}h1{font-size:clamp(2.7rem,6vw,5.2rem);margin:18px 0}h1 span{color:var(--green)}.hero p{font-size:1.12rem;color:#52665b;max-width:630px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.btn{display:inline-flex;justify-content:center;align-items:center;gap:9px;text-decoration:none;border:0;border-radius:999px;padding:13px 19px;font-weight:800;cursor:pointer;font-size:.95rem}.btn-primary{background:var(--pine);color:white}.btn-light{background:white;color:var(--pine);border:1px solid var(--line)}.btn:hover{transform:translateY(-1px);filter:brightness(1.04)}.hero-art{background:var(--pine);color:white;border-radius:30px;padding:26px;min-height:340px;position:relative;overflow:hidden;box-shadow:var(--shadow)}.sun{position:absolute;right:28px;top:24px;width:78px;height:78px;border-radius:50%;background:var(--lime)}.hill{position:absolute;bottom:-48px;border-radius:50% 50% 0 0;width:120%;height:190px;background:#2d7a5e;left:-10%;transform:rotate(-7deg)}.hill2{position:absolute;bottom:-68px;left:-10%;width:120%;height:155px;border-radius:50% 50% 0 0;background:#9ec77a;transform:rotate(7deg)}.park-label{position:relative;z-index:2;max-width:220px}.park-label .emoji{font-size:3.5rem}.park-label h3{color:white;font-size:1.7rem;margin:6px 0}.park-label p{color:#e0eee4;font-size:.95rem}.animal{position:absolute;right:28px;bottom:46px;font-size:5.5rem;z-index:3;filter:drop-shadow(0 8px 2px rgba(0,0,0,.1))}
+.notice{padding:20px 0}.notice-inner{background:#fff4e9;border:1px solid #f3d7c4;border-radius:18px;padding:17px 20px;display:flex;gap:14px;align-items:flex-start}.notice-inner strong{color:#8c4829}.notice-inner p{margin:2px 0;color:#765541;font-size:.94rem}
+section{padding:62px 0}.section-head{max-width:730px;margin-bottom:28px}.section-head h2{font-size:clamp(2rem,4vw,3rem);margin:10px 0}.section-head p{color:var(--muted);font-size:1.05rem}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:0 6px 20px rgba(21,63,53,.035)}.card .icon{width:48px;height:48px;display:grid;place-items:center;background:#eaf2e2;border-radius:15px;font-size:1.55rem}.card h3{font-size:1.22rem;margin:15px 0 8px}.card p,.card li{color:var(--muted);font-size:.95rem}.card ul{padding-left:19px}.tag{display:inline-block;border-radius:999px;background:#edf4e8;color:var(--green);font-size:.75rem;font-weight:850;padding:5px 9px;margin-bottom:6px}
+.dark{background:var(--pine);color:white}.dark h2,.dark h3{color:white}.dark .section-head p{color:#d1e1d6}.dark .card{background:#1c4b3f;border-color:#356657;box-shadow:none}.dark .card p,.dark .card li{color:#d2e2d8}.dark .card .icon{background:#315d4c}.risk-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.risk{display:flex;gap:15px;background:#1c4b3f;border:1px solid #356657;border-radius:18px;padding:18px}.risk .emoji{font-size:1.8rem}.risk h3{font-size:1.1rem;margin:2px 0 7px}.risk p{color:#d2e2d8;margin:0;font-size:.93rem}.smallnote{font-size:.85rem;color:#d2e2d8;margin-top:20px}
+.steps{counter-reset:step;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.step{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:19px}.step:before{counter-increment:step;content:"0" counter(step);font-size:.8rem;font-weight:900;color:var(--orange);letter-spacing:.1em}.step h3{margin:10px 0;font-size:1.1rem}.step p{color:var(--muted);font-size:.92rem;margin:0}
+.contacts{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}.contact{display:flex;gap:15px;align-items:flex-start;background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:20px}.contact .icon{font-size:1.8rem}.contact h3{margin:0 0 5px;font-size:1.13rem}.phone{font-size:1.45rem;font-weight:900;color:var(--green);margin:5px 0}.contact p{margin:0 0 10px;color:var(--muted);font-size:.92rem}.contact a{font-weight:800;color:var(--green);text-underline-offset:3px}.emergency{border-color:#f0c6b7;background:#fff7f3}.emergency .phone{color:#a43e24}
+.report-box{display:grid;grid-template-columns:1fr 1fr;gap:24px;background:#e9f0e4;border:1px solid #d4e1d1;border-radius:24px;padding:26px}.report-box h3{margin-top:0}.report-box li{margin:8px 0;color:#4f6358}.report-box p{color:#4f6358}.qr{background:white;border:1px dashed #8eaa94;border-radius:18px;padding:22px;text-align:center;display:grid;place-items:center;min-height:220px}.qr-code{display:grid;place-items:center;width:112px;height:112px;border:7px solid var(--pine);font-size:2.3rem;margin:5px auto 10px;color:var(--pine)}.qr small{color:var(--muted)}
+details{background:var(--paper);border:1px solid var(--line);border-radius:15px;padding:16px 18px;margin:10px 0}summary{cursor:pointer;color:var(--pine);font-weight:850}details p{color:var(--muted);margin-bottom:0}
+.sources{font-size:.9rem;color:var(--muted)}.sources li{margin:10px 0;overflow-wrap:anywhere}.sources a{color:var(--green)}footer{background:#102f28;color:#d8e7dc;padding:35px 0}.footer-grid{display:flex;justify-content:space-between;gap:25px;align-items:flex-start}.footer-title{font-weight:900;font-size:1.2rem;color:white}.footer-note{max-width:660px;font-size:.88rem;color:#c4d8cc}.backtop{color:var(--lime);font-weight:800}
+@media(max-width:800px){.navlinks a:not(.navcta){display:none}.hero-grid{grid-template-columns:1fr}.hero-art{min-height:290px}.grid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.risk-grid{grid-template-columns:1fr}.contacts{grid-template-columns:1fr}.report-box{grid-template-columns:1fr}.footer-grid{flex-direction:column}}
+@media(max-width:520px){.wrap{width:min(100% - 24px,1120px)}.hero{padding:44px 0 34px}.grid{grid-template-columns:1fr}section{padding:44px 0}.steps{grid-template-columns:1fr}.contact{padding:16px}.phone{font-size:1.3rem}.nav{min-height:66px}.brand{font-size:.92rem}.brandmark{width:38px;height:38px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header>
+ <div class="wrap nav">
+  <a class="brand" href="#inicio" aria-label="Cuidemos nuestro parque, inicio"><span class="brandmark">♧</span><span>Cuidemos nuestro parque</span></a>
+  <nav class="navlinks" aria-label="Navegación principal">
+   <a href="#canecas">Canecas</a><a href="#cuidado-espacios">Cuidar el parque</a><a href="#animales">Animales</a><a href="#ayuda">Pedir ayuda</a><a class="navcta" href="#compromiso">Actúa hoy ↗</a>
+  </nav>
+ </div>
+</header>
+<main id="contenido">
+<section class="hero" id="inicio">
+ <div class="wrap hero-grid">
+  <div>
+   <div class="eyebrow">Guía comunitaria · Bosa, Bogotá</div>
+   <h1>Un parque limpio.<br><span>Animales más seguros.</span></h1>
+   <p>La basura y los restos de comida no pertenecen al parque. Aprende cómo disponer los residuos, proteger a los animales y encontrar canales oficiales para pedir ayuda.</p>
+   <div class="actions"><a class="btn btn-primary" href="#ayuda">☎ Necesito ayuda</a><a class="btn btn-light" href="#residuos">Aprender a separar ↓</a></div>
+  </div>
+  <div class="hero-art" role="img" aria-label="Ilustración de un parque verde y un perro">
+   <div class="sun"></div><div class="park-label"><div class="emoji">🌳</div><h3>El parque es de todos</h3><p>Pequeñas acciones de muchas personas generan un cambio comunitario.</p></div>
+   <div class="hill"></div><div class="hill2"></div><div class="animal">🐕</div>
+  </div>
+ </div>
+</section>
+<div class="notice"><div class="wrap notice-inner"><span style="font-size:1.6rem">⚠️</span><div><strong>Importante: no todo lo que parece comida es seguro para un animal.</strong><p>No permitas que perros o gatos coman restos encontrados en la calle. Si un animal presenta síntomas o ingiere algo potencialmente tóxico, contacta a un veterinario.</p></div></div></div>
+<section id="problema">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">¿Por qué importa?</div><h2>Lo que dejamos en el suelo no desaparece</h2><p>Las bolsas rotas, empaques, líquidos y sobras pueden ensuciar el espacio, atraer animales y plagas, producir malos olores y aumentar el riesgo de que residuos terminen en sumideros o zonas verdes.</p></div>
+  <div class="grid">
+   <article class="card"><div class="icon">💧</div><h3>Contaminación del entorno</h3><p>Los residuos pueden dispersarse con el viento o la lluvia, afectar el suelo y llegar a los drenajes. Nunca arrojes basura a los sumideros.</p></article>
+   <article class="card"><div class="icon">🦟</div><h3>Plagas y malos olores</h3><p>Los restos orgánicos expuestos pueden atraer moscas, roedores y otros animales oportunistas, además de generar olores desagradables.</p></article>
+   <article class="card"><div class="icon">🐾</div><h3>Riesgo para los animales</h3><p>Los animales pueden ingerir comida descompuesta, huesos, envolturas u objetos que provoquen lesiones, obstrucciones o intoxicaciones.</p></article>
+  </div>
+ </div>
+</section>
+<section id="residuos" style="background:#edf2e8">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">Guía práctica</div><h2>¿Qué residuo es y cómo manejarlo?</h2><p>Separa desde el origen y utiliza el servicio o punto de entrega apropiado. No dejes residuos junto a árboles, juegos, bancas o zonas donde circulan mascotas.</p></div>
+  <div class="grid">
+   <article class="card"><span class="tag">Ordinarios no aprovechables</span><div class="icon">🧻</div><h3>Servilletas sucias y envolturas contaminadas</h3><p>Deposítalas en una caneca o en la fracción de no aprovechables según las reglas locales. No las dejes sueltas ni las entierres.</p><p><b>Riesgo animal:</b> pueden ser tragadas; algunas envolturas pueden causar atragantamiento u obstrucciones.</p></article>
+   <article class="card"><span class="tag">Aprovechables</span><div class="icon">♻️</div><h3>Botellas, latas, papel y cartón limpios</h3><p>Manténlos separados, limpios y secos cuando corresponda. Entrégalos al reciclador de oficio o al sistema de recolección selectiva disponible.</p><p><b>Riesgo animal:</b> latas cortantes, tapas y plásticos pueden causar heridas o ser ingeridos.</p></article>
+   <article class="card"><span class="tag">Orgánicos</span><div class="icon">🍎</div><h3>Frutas, sobras y comida preparada</h3><p>No abandones sobras en el parque ni alimentes fauna con alimentos desconocidos. Usa el sistema de residuos orgánicos disponible en tu sector; si no existe, consulta la orientación local.</p><p><b>Riesgo animal:</b> alimento descompuesto puede causar problemas digestivos; ciertos ingredientes son tóxicos.</p></article>
+   <article class="card"><span class="tag">Cortopunzantes o peligrosos</span><div class="icon">🧪</div><h3>Vidrios rotos, agujas, químicos y pilas</h3><p>No los manipules con las manos desnudas ni los mezcles con reciclables. Aísla el área si es seguro y consulta la ruta especial correspondiente.</p><p><b>Riesgo animal:</b> cortes, quemaduras químicas o intoxicación. Mantén a las mascotas alejadas.</p></article>
+   <article class="card"><span class="tag">Construcción y demolición</span><div class="icon">🧱</div><h3>Escombros, tejas, ladrillos y sanitarios</h3><p>No los abandones en andenes, parques o junto a contenedores. Solicita el servicio especial por la Línea 110 y confirma costo, condiciones y cobertura.</p><p><b>Riesgo animal:</b> polvo, bordes filosos, clavos y fragmentos pueden causar heridas o irritación.</p></article>
+   <article class="card"><span class="tag">Voluminosos y especiales</span><div class="icon">🛋️</div><h3>Colchones, muebles y llantas</h3><p>No los dejes en zonas verdes. Consulta recolección especial o jornadas de Ecopuntos. No los quemes ni los arrojes a quebradas o sumideros.</p><p><b>Riesgo animal:</b> pueden atrapar animales, acumular agua o convertirse en refugio de plagas.</p></article>
+  </div>
+ </div>
+</section>
+<section id="canecas">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">Aprende a usar las canecas</div><h2>¿En cuál caneca va cada residuo?</h2><p>En Colombia se usa habitualmente el código de colores blanco, negro y verde para separar residuos. Revisa siempre la señalización de cada punto: en algunos parques hay recipientes especiales o instrucciones locales.</p></div>
+  <div class="grid">
+   <article class="card"><span class="tag">Caneca blanca</span><div class="icon">♻️</div><h3>Residuos aprovechables</h3><p>Deposita materiales reciclables limpios y secos, como botellas plásticas, envases, latas, papel y cartón sin grasa ni restos de comida.</p><p><b>Antes de botar:</b> vacía los envases y mantenlos lo más limpios y secos posible. No pongas servilletas sucias ni empaques llenos de comida.</p></article>
+   <article class="card"><span class="tag">Caneca negra</span><div class="icon">🗑️</div><h3>Residuos no aprovechables</h3><p>Incluye servilletas y papeles contaminados con comida, papel higiénico, empaques sucios y otros residuos que no se pueden reciclar por su estado.</p><p><b>Recuerda:</b> cierra las bolsas si corresponde y nunca dejes basura al lado de una caneca llena. Busca otro punto o llévala contigo.</p></article>
+   <article class="card"><span class="tag">Caneca verde</span><div class="icon">🍃</div><h3>Residuos orgánicos aprovechables</h3><p>Puede recibir restos orgánicos como cáscaras de frutas y verduras y residuos vegetales, siempre que el recipiente esté destinado a ellos y el servicio local los reciba.</p><p><b>Importante:</b> no todos los parques cuentan con recolección separada de orgánicos. Si no hay caneca verde señalizada, no mezcles residuos por suposición; consulta las indicaciones del lugar.</p></article>
+  </div>
+  <div class="report-box" style="margin-top:18px">
+   <div><h3>Antes de usar una caneca</h3><ul><li>Lee el rótulo o pictograma del recipiente.</li><li>No mezcles reciclables limpios con comida o líquidos.</li><li>No introduzcas vidrios rotos, agujas, pilas, medicamentos ni químicos en canecas comunes.</li><li>No dejes bolsas, cajas ni residuos en el piso junto a la caneca.</li><li>Si está llena, busca otra o conserva tus residuos hasta encontrar un punto adecuado.</li></ul></div>
+   <div><h3>¿Y los residuos especiales?</h3><p><b>Pilas, bombillos, electrónicos, aceite usado y medicamentos vencidos:</b> llévalos a puntos posconsumo autorizados; no los arrojes a canecas ordinarias ni al suelo.</p><p><b>Vidrios rotos o elementos cortopunzantes:</b> no los manipules con las manos desnudas. Mantén a personas y animales alejados y consulta la ruta apropiada.</p><p><b>Escombros y muebles:</b> no van en las canecas del parque. Consulta la recolección especial en la Línea 110 y confirma condiciones y cobertura.</p></div>
+  </div>
+  <p class="smallnote" style="color:var(--muted)">La separación correcta depende también de que exista una ruta de recolección diferenciada. Si tienes dudas, sigue la señalización del punto y las indicaciones oficiales de tu localidad.</p>
+ </div>
+</section>
+<section id="animales" class="dark">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow" style="color:var(--lime)">Cuidado animal</div><h2>Restos de comida: no significa que sean seguros</h2><p>Evita que los animales coman de bolsas de basura o platos abandonados. El riesgo depende del alimento, la cantidad, el tamaño del animal y su estado de salud.</p></div>
+  <div class="risk-grid">
+   <article class="risk"><div class="emoji">🍫</div><div><h3>Chocolate, café y bebidas con cafeína</h3><p>Pueden intoxicar a perros y gatos. Nunca los dejes al alcance de animales.</p></div></article>
+   <article class="risk"><div class="emoji">🍇</div><div><h3>Uvas y pasas</h3><p>Pueden causar daño renal grave en perros. No existe una cantidad que deba considerarse segura para ofrecerles.</p></div></article>
+   <article class="risk"><div class="emoji">🧅</div><div><h3>Cebolla, ajo y alimentos condimentados</h3><p>Los ingredientes de la familia de la cebolla pueden dañar los glóbulos rojos. Los restos también pueden contener mucha grasa o sal.</p></div></article>
+   <article class="risk"><div class="emoji">🍬</div><div><h3>Chicles y productos “sin azúcar”</h3><p>Algunos contienen xilitol, que puede ser muy tóxico para los perros. Revisa los empaques y no los dejes tirados.</p></div></article>
+   <article class="risk"><div class="emoji">🦴</div><div><h3>Huesos, palillos y espinas</h3><p>Pueden atascarse, astillarse o lesionar boca y aparato digestivo. No los arrojes al parque para que los animales los encuentren.</p></div></article>
+   <article class="risk"><div class="emoji">🧴</div><div><h3>Envases, bolsas y líquidos desconocidos</h3><p>Los animales pueden tragarlos o entrar en contacto con químicos. No provoques el vómito ni administres remedios caseros sin indicación veterinaria.</p></div></article>
+  </div>
+  <p class="smallnote">Esta información es educativa y no sustituye una valoración veterinaria. Si sospechas ingestión de una sustancia peligrosa, busca atención veterinaria de inmediato y conserva el envase o una foto del producto si puedes hacerlo sin riesgo.</p>
+ </div>
+</section>
+<section id="cuidado-espacios" style="background:#edf2e8">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">Guía de cuidado comunitario</div><h2>¿Cómo cuidamos nuestros espacios?</h2><p>Un parque limpio y seguro se construye con hábitos cotidianos, respeto por las demás personas y colaboración entre vecinos. No hace falta esperar una jornada de limpieza para empezar.</p></div>
+  <div class="grid">
+   <article class="card"><div class="icon">🧹</div><h3>1. Mantén limpio lo que usas</h3><p>Recoge tus empaques, botellas y residuos antes de irte. Si llevas comida, guarda los sobrantes y limpia el lugar sin barrer la basura hacia las zonas verdes o los sumideros.</p></article>
+   <article class="card"><div class="icon">🌱</div><h3>2. Protege las zonas verdes</h3><p>No arranques plantas, dañes árboles, pises jardines delimitados ni viertas aceite, pintura o líquidos sobre el suelo. No arrojes nada a los sumideros.</p></article>
+   <article class="card"><div class="icon">🛝</div><h3>3. Respeta los elementos comunes</h3><p>Cuida bancas, juegos, señalización, canchas y senderos. No rayes, rompas ni uses las canecas para apagar cigarrillos encendidos o depositar materiales peligrosos.</p></article>
+   <article class="card"><div class="icon">🐕</div><h3>4. Sé responsable con tu mascota</h3><p>Lleva bolsas para recoger sus heces, mantenla bajo control y evita que coma basura o restos desconocidos. Desecha las bolsas cerradas en el lugar adecuado.</p></article>
+   <article class="card"><div class="icon">🤝</div><h3>5. Organiza acciones entre vecinos</h3><p>Acuerden una jornada de limpieza, definan tareas sencillas, usen guantes y herramientas adecuadas y no manipulen agujas, químicos, animales heridos ni objetos peligrosos. Coordinen la disposición final de lo recogido.</p></article>
+   <article class="card"><div class="icon">📣</div><h3>6. Reporta y da ejemplo</h3><p>Si ves un punto crítico, toma nota de su ubicación y del tipo de residuo. Usa canales oficiales y evita confrontar a otras personas. Invita con respeto a la comunidad a mantener el espacio limpio.</p></article>
+  </div>
+  <div class="section-head" style="margin-top:34px;margin-bottom:16px"><h2 style="font-size:1.7rem">Mini rutina: antes de irte del parque</h2><p>Dedica un minuto a comprobar que tu espacio quede mejor de como lo encontraste.</p></div>
+  <div class="steps">
+   <article class="step"><h3>Mira a tu alrededor</h3><p>Identifica envolturas, botellas o restos que hayas generado.</p></article>
+   <article class="step"><h3>Separa lo posible</h3><p>Usa las canecas según su rótulo y evita contaminar reciclables.</p></article>
+   <article class="step"><h3>Cuida a los animales</h3><p>No dejes comida en el suelo y revisa que tu mascota no esté comiendo residuos.</p></article>
+   <article class="step"><h3>Comparte el mensaje</h3><p>Invita a otra persona a cuidar el parque con respeto y buen ejemplo.</p></article>
+  </div>
+ </div>
+</section>
+<section id="buenas-practicas">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">Hábitos fáciles</div><h2>Cuatro pasos para actuar si encuentras residuos</h2></div>
+  <div class="steps">
+   <article class="step"><h3>No lo disperses</h3><p>No pises, quemes ni empujes residuos hacia zonas verdes, quebradas o sumideros.</p></article>
+   <article class="step"><h3>No manipules lo peligroso</h3><p>Aléjate de agujas, químicos, vidrios rotos o residuos desconocidos y mantén alejados a niños y mascotas.</p></article>
+   <article class="step"><h3>Registra el punto</h3><p>Anota ubicación, tipo de residuo y cuándo lo viste. Toma fotos solo desde un lugar seguro.</p></article>
+   <article class="step"><h3>Solicita orientación</h3><p>Consulta los canales oficiales para pedir recolección o reportar disposición inadecuada. No confrontes a quien arroje residuos.</p></article>
+  </div>
+ </div>
+</section>
+<section id="ayuda" style="background:#edf2e8">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">Contactos útiles en Bogotá</div><h2>¿Necesitas pedir ayuda o reportar?</h2><p>Estos canales corresponden a información pública de entidades distritales. Explica con claridad qué ocurre, dónde y cuándo; confirma el alcance del servicio con la entidad.</p></div>
+  <div class="contacts">
+   <article class="contact"><div class="icon">🚛</div><div><h3>Escombros y residuos voluminosos</h3><div class="phone">110</div><p>Consulta y solicita recolección especial de escombros, muebles y elementos voluminosos.</p><a href="tel:110">Llamar al 110 ↗</a> · <a href="https://www.uaesp.gov.co/transparencia/atencion-ciudadano/sede-principal" target="_blank" rel="noopener">Información UAESP ↗</a></div></article>
+   <article class="contact"><div class="icon">🗓️</div><div><h3>Horarios de recolección y orientación</h3><div class="phone">195</div><p>También WhatsApp Chatico: 316 023 1524, para consultar horarios y orientación distrital.</p><a href="tel:195">Llamar al 195 ↗</a> · <a href="https://bogota.gov.co/mi-ciudad/habitat/canales-habilitados-para-reportar-basuras-y-puntos-criticos-en-bogota" target="_blank" rel="noopener">Canales oficiales ↗</a></div></article>
+   <article class="contact"><div class="icon">🌿</div><div><h3>Secretaría Distrital de Ambiente</h3><div class="phone">(601) 377 8899</div><p>Orientación ambiental y canales para presentar solicitudes o reportes.</p><a href="tel:+576013778899">Llamar a la Secretaría ↗</a> · <a href="https://ambientebogota.gov.co/web/transparencia/canales-de-atencion-y-pida-una-cita" target="_blank" rel="noopener">Canales de atención ↗</a></div></article>
+   <article class="contact emergency"><div class="icon">🐕</div><div><h3>Emergencia o maltrato animal</h3><div class="phone">123</div><p>Para emergencias en Bogotá. El acceso a servicios veterinarios distritales depende de los criterios del programa.</p><a href="tel:123">Llamar al 123 ↗</a> · <a href="https://animalesbog.gov.co/te-ayudamos" target="_blank" rel="noopener">Instituto de Protección Animal ↗</a></div></article>
+  </div>
+  <p style="font-size:.86rem;color:#5d6d65;margin-top:16px">Para reportar arrojo ilegal de basuras o escombros en espacio público, la información distrital también indica la Línea 195, opción 8. Verifica el menú vigente al llamar. Si el hecho está ocurriendo, no te pongas en riesgo para obtener fotos o videos.</p>
+ </div>
+</section>
+<section id="reportar">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">Reportes más útiles</div><h2>Qué información tener a mano</h2><p>Una descripción concreta ayuda a orientar la solicitud. Comparte solo los datos necesarios y evita publicar información personal de terceros.</p></div>
+  <div class="report-box">
+   <div><h3>Antes de llamar o reportar</h3><ul><li>Ubicación exacta o punto de referencia del parque.</li><li>Tipo de residuo: bolsa doméstica, restos de comida, escombros, colchón, químico, etc.</li><li>Fecha y hora aproximadas; indica si es un hecho repetido.</li><li>Si hay riesgo inmediato para personas o animales.</li><li>Fotografía del residuo solo si puedes tomarla desde un lugar seguro.</li></ul><p><b>Importante:</b> no mezcles una solicitud de recolección con una denuncia de disposición ilegal; explica cuál servicio necesitas.</p></div>
+   <div class="qr"><div><div class="qr-code" aria-hidden="true">▦</div><b>Próximamente: código QR comunitario</b><p>Al publicar esta página en Vercel, genera un QR con la URL definitiva para que los vecinos puedan abrirla desde su celular.</p><small>El QR aún no está activo porque esta versión debe publicarse primero.</small></div></div>
+  </div>
+ </div>
+</section>
+<section id="compromiso" style="background:#e4eddb">
+ <div class="wrap" style="text-align:center;max-width:800px">
+  <div class="eyebrow">Un compromiso de todos</div><h2 style="font-size:clamp(2.1rem,4vw,3.4rem);margin:14px 0">El parque que queremos empieza con lo que hacemos hoy.</h2><p style="font-size:1.08rem;color:#53675a">No dejes residuos ni restos de comida en el suelo. Separa, dispone correctamente, cuida a los animales y comparte esta guía con tu familia y vecinos.</p>
+  <div class="actions" style="justify-content:center"><a class="btn btn-primary" href="#residuos">Volver a la guía ↑</a><a class="btn btn-light" href="#ayuda">Guardar los contactos</a></div>
+ </div>
+</section>
+<section id="fuentes">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">Consulta y verificación</div><h2>Fuentes oficiales</h2><p>Los contactos y rutas pueden cambiar. Consulta las páginas oficiales antes de solicitar un servicio.</p></div>
+  <ol class="sources">
+   <li>Unidad Administrativa Especial de Servicios Públicos (UAESP). Atención al ciudadano y línea para servicio especial de recolección de escombros. <a href="https://www.uaesp.gov.co/transparencia/atencion-ciudadano/sede-principal" target="_blank" rel="noopener">Consultar fuente ↗</a></li>
+   <li>Portal Bogotá. Canales habilitados para reportar basuras y puntos críticos. <a href="https://bogota.gov.co/mi-ciudad/habitat/canales-habilitados-para-reportar-basuras-y-puntos-criticos-en-bogota" target="_blank" rel="noopener">Consultar fuente ↗</a></li>
+   <li>Secretaría Distrital de Ambiente. Canales de atención. <a href="https://ambientebogota.gov.co/web/transparencia/canales-de-atencion-y-pida-una-cita" target="_blank" rel="noopener">Consultar fuente ↗</a></li>
+   <li>Instituto Distrital de Protección y Bienestar Animal. Canales de ayuda y urgencias veterinarias. <a href="https://animalesbog.gov.co/te-ayudamos" target="_blank" rel="noopener">Consultar fuente ↗</a></li>
+  </ol>
+ </div>
+</section>
+</main>
+<footer><div class="wrap footer-grid"><div><div class="footer-title">Cuidemos nuestro parque ♧</div><div class="footer-note">Recurso educativo comunitario propuesto para el Parque de las Patinetas, Bosa El Remanso, Bogotá. Iniciativa de sensibilización sobre residuos, espacio público y bienestar animal.</div></div><a class="backtop" href="#inicio">Volver arriba ↑</a></div></footer>
+</body>
+</html>
